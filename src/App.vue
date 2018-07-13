@@ -123,11 +123,11 @@ export default {
   data () {
     return {
       showDemoPart: {
-        demo1Show: false,
+        demo1Show: true,
         demo2Show: false,
         demo3Show: false,
         demo4Show: false,
-        demo5Show: true
+        demo5Show: false
       },
 			dateDemo1: {
 				info: {

@@ -2,7 +2,7 @@
 	<div>
 		<h2>测试1</h2>
 		<el-button type="primary" @click="getDate">获取</el-button><br>
-		<p>{{test}}</p>
+		<p>游戏名称：{{test}}</p>
 	</div>
 	
 </template>
@@ -15,7 +15,7 @@ export default {
 	},
 	methods: {
 		getDate() {
-			this.test = window.localStorage.getItem(name)
+			this.test = window.localStorage.getItem('name')
 		}
 	}
 }

@@ -3,10 +3,10 @@
 		<h2>测试2</h2>
 		<el-button type="primary" @click="getDate">获取</el-button><br>
 		<p>游戏名称：{{gameName}}</p>
-		<p>游戏名称：{{gameDate}}</p>
-		<p>游戏名称：{{gameEngine}}</p>
-		<p>游戏名称：{{gameLanguage}}</p>
-		<p>游戏名称：{{gamePlatForm}}</p>
+		<p>开发周期：{{gameDate}}</p>
+		<p>开发引擎：{{gameEngine}}</p>
+		<p>开发语言：{{gameLanguage}}</p>
+		<p>打包平台：{{gamePlatForm}}</p>
 	</div>
 	
 </template>
@@ -23,11 +23,11 @@ export default {
 	},
 	methods: {
 		getDate() {
-			this.gameName = window.localStorage.getItem(name)
-			this.gameDate = window.localStorage.getItem(date)
-			this.gameEngine = window.localStorage.getItem(engine)
-			this.gameLanguage = window.localStorage.getItem(language)
-			this.gamePlatForm = window.localStorage.getItem(platform)
+			this.gameName = window.localStorage.getItem('name')
+			this.gameDate = window.localStorage.getItem('date')
+			this.gameEngine = window.localStorage.getItem('engine')
+			this.gameLanguage = window.localStorage.getItem('language')
+			this.gamePlatForm = window.localStorage.getItem('platform')
 		}
 	}
 }
