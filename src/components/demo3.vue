@@ -86,14 +86,14 @@ export default {
 				alert('恭喜，审核通过')
 			} else {
 				this.canView = false
-				alert('审核失败，请检查您天蝎的内容')
+				alert('审核失败，请检查您填写的内容')
 			}
 		})
 	},
 	methods: {
 		approval() {
 			this.$root.Bus.$emit('demoTold', this.query)
-			this.canView = true
+			this.canView = true			
 		}
 	}
 }

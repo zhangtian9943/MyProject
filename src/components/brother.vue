@@ -102,7 +102,7 @@ export default {
 		},
 		restDate() {
 			for(const key in this.demoDate) {
-				this.demoDate[key] = ''
+				this.demoDate[key] = ''				
 			}
 		}
 	}

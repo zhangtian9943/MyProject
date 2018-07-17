@@ -12,7 +12,7 @@
 		<div v-show="showDemoPart.demo1Show">
 			<div v-show="!dateDemo1.showChild">
 				<h2>自动生成基础信息(父->子)</h2>
-        <span>我是女娲，我要捏一个子辈（老大）</span>
+        <span>我是女娲，我要捏一个子辈</span>
 				<el-row>
 					<el-col :span="4">
 						<el-input v-model="dateDemo1.info.age" placeholder="年龄"></el-input>
@@ -76,6 +76,7 @@
     <!-- Demo3   -->
     <div v-show="showDemoPart.demo3Show">
       <h2>兄弟组件通信（demo3,brother）</h2>
+      <h3>bus.$on,bus.$emit</h3>
       <demo3>
       </demo3>
       <brother>
@@ -95,6 +96,10 @@
     <div v-show="showDemoPart.demo5Show">
       <demo5>
       </demo5>
+    </div>
+      
+    <div>
+
     </div>
   </div>
 </template>
