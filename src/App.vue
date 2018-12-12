@@ -14,6 +14,7 @@
 				<h2>自动生成基础信息(父->子)</h2>
         <span>我是女娲，我要捏一个子辈</span>
 				<el-row>
+          <span>xxx</span>  
 					<el-col :span="4">
 						<el-input v-model="dateDemo1.info.age" placeholder="年龄"></el-input>
 					</el-col>
