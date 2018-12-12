@@ -2,7 +2,7 @@
   <div id="app">
     <!-- 切换Demo -->
     <div>
-      <el-button type="primary" @click="showPart(1)">Demo1</el-button>
+      <el-button type="primary" @click="showPart(1)">Demo1</el-button>ak
       <el-button type="primary" @click="showPart(2)">Demo2</el-button>
       <el-button type="primary" @click="showPart(3)">Demo3</el-button>
       <el-button type="primary" @click="showPart(4)">Demo4</el-button>
