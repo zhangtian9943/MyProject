@@ -2,7 +2,7 @@
   <div id="app">
     <!-- 切换Demo -->
     <div>
-      <el-button type="primary" @click="showPart(1)">Demo1</el-button>ak
+      <el-button type="primary" @click="showPart(1)">Demo1</el-button>
       <el-button type="primary" @click="showPart(2)">Demo2</el-button>
       <el-button type="primary" @click="showPart(3)">Demo3</el-button>
       <el-button type="primary" @click="showPart(4)">Demo4</el-button>
@@ -12,7 +12,7 @@
 		<div v-show="showDemoPart.demo1Show">
 			<div v-show="!dateDemo1.showChild">
 				<h2>自动生成基础信息(父-子）</h2>
-        <span>我是女娲，我要捏一个子</span>
+        <span>我是女娲，我要捏一个子泰说什么让人台撒</span>
 				<el-row>
           <span>xxx11</span>  
 					<el-col :span="4">
