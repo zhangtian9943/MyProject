@@ -12,7 +12,7 @@
 		<div v-show="showDemoPart.demo1Show">
 			<div v-show="!dateDemo1.showChild">
 				<h2>自动生成基础信息(父->子)按时间的</h2>
-        <span>我是女娲，我要捏一个子辈</span>
+        <span>我是女娲，我要捏一个子我带你看我家的</span>
 				<el-row>
           <span>xxx11</span>  
 					<el-col :span="4">
